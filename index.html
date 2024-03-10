@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropzone</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <f<form class="file-upload-form">
+      <h3 class="form-title">Upload and attach files</h3>
+      <p class="form-description">Easy file upload and attachment.</p>
+      <div class="file-upload-container" id="file-upload-container">
+          <svg
+              class="file-svg"
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="500"
+              height="500"
+              viewBox="0 0 50 50"
+          >
+              <path
+                  d="M 7 2 L 7 48 L 43 48 L 43 14.59375 L 42.71875 14.28125 L 30.71875 2.28125 L 30.40625 2 Z M 9 4 L 29 4 L 29 16 L 41 16 L 41 46 L 9 46 Z M 31 5.4375 L 39.5625 14 L 31 14 Z"
+              ></path>
+          </svg>
+          <p class="upload-title">Click on upload or drag and drop</p>
+          <p class="file-info">No file selected</p>
+      </div>
+      <input
+          type="file"
+          id="file-input"
+          style="display: none"
+          multiple
+      />
+      <button type="button" class="browse-button" id="browse-button">Browse file</button>
+  </form>
+  </body>
+</html>
